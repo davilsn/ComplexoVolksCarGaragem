@@ -6,8 +6,6 @@ body {
   background-position: center;
   background-size: cover;
   */
-  height: 100vh;
-
 }
 
 :root {
@@ -19,6 +17,13 @@ body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 #conteiner {
   max-width: 588px;
   margin: 56px auto 0;
