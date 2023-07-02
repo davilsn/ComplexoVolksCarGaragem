@@ -1,9 +1,13 @@
 body {
-  background: var(--bg-url);
+  background: var(--bg-url) no-repeat top center/cover;
+  /*
   background-repeat: no-repeat;
   background-position: top;
+  background-position: center;
   background-size: cover;
-  height: 80%;
+  */
+
+  height: 100vh;
 }
 
 :root {
@@ -16,7 +20,6 @@ body * {
   color: var(--text-color);
 }
 #conteiner {
-  width: 100%;
   max-width: 588px;
   margin: 56px auto 0;
   padding: 0 24px;
